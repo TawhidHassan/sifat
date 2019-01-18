@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="portfolioIndex.css">
     <link rel="stylesheet" href="prespomsive.css">
 </head>
-<body>
+<body onload="loadFuntion()">
+<div id="loading"></div>
 
 <header class="bird-box">
     <div class="back-bird"></div>
@@ -457,6 +458,10 @@
         offset:200,
         duration:3000,
     });
+    var preloader =document.getElementById('loading');
+    function loadFuntion() {
+        preloader.style.display='none';
+    }
 </script>
 </body>
 </html>

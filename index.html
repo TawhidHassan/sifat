@@ -17,8 +17,8 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/respomsive.css">
     </head>
-    <body>
-
+    <body onload="loadFuntion()">
+    <div id="loading"></div>
     <header id="particles-js">
         <section class="header-part" >
             <section class="top-section-nav">
@@ -130,6 +130,10 @@
             offset:200,
             duration:3000,
         });
+        var preloader =document.getElementById('loading');
+        function loadFuntion() {
+            preloader.style.display='none';
+        }
     </script>
     </body>
 </html>
