@@ -1,0 +1,109 @@
+@media only screen and (max-width:1024px){
+    .bird-box nav ul{
+        transform: translateX(80%);
+    }
+    .logo h1::after{
+        transform: translate(30%,50%);
+    }
+    .fore-bird{
+        margin-left: -880px;
+    }
+    .my_discription_text{
+        width: 80%;
+    }
+    .my_discription_photo img{
+        height: 550px;
+        width: 600px;
+        transform: translate(0px,0);
+        margin-left: -320px;
+    }
+}
+
+/*760px */
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .bird-box nav ul{
+        transform: translateX(40%);
+    }
+    .my_discription_photo img{
+       display: none;
+    }
+}
+
+/*480px */
+@media only screen and (min-width:488px) and (max-width:767px){
+
+    .bird-box nav ul{
+        transform: translateX(0%);
+        font-size: 12px;
+    }
+    .my_discription_photo img{
+        display: none;
+    }
+    .logo h1::after{
+        transform: translate(-30%,0%);
+    }
+    .looking-text{
+        transform: translateX(-10%);
+    }
+    .social-links ul li{
+        width: 40px;
+        height: 40px;
+    }
+    .social-links ul li span{
+        font-size: 20px !important;
+    }
+}
+
+/*320px */
+@media only screen and (max-width:767px){
+    .my_discription_photo img{
+        display: none;
+    }
+    .fore-bird{
+        width: 550px;
+        height: 732px;
+        left: 50%;
+        margin-left:-340px;
+        top: 380px;
+    }
+    .service_part {
+        min-height: 350px;
+    }
+    .my_discription_text h1{
+        font-size: 20px;
+    }
+    .my_discription_text p{
+        font-size: 15px;
+    }
+    .looking-main a{
+        margin-left: 94px;
+    }
+    .social-links-bg{
+        display: none;
+    }
+    .bird-box nav ul{
+        transform: translateX(50%);
+    }
+    .bird-box nav ul li{
+        font-weight: bold;
+        font-size: 20px;
+    }
+.mobile-menu-item{
+    display: block;
+    margin-left: 120px;
+}
+.mobile-menu-item a{
+    font-size: 20px;
+    font-weight: bold;
+}
+    .mobile-menu-item a:hover{
+        text-decoration: none;
+    }
+    .project__title{
+        font-size: 20px;
+    }
+    .project__category{
+        display: none;
+    }
+}
